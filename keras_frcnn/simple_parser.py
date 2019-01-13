@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
-
+from functools import reduce
+from training.tag_utils import parse_xml_tags
 
 def get_data(input_path):
     found_bg = False
@@ -17,8 +18,26 @@ def get_data(input_path):
         print('Parsing annotation files')
 
         for line in f:
-            line_split = line.strip().split(',')
-            (filename, x1, y1, x2, y2, class_name) = line_split
+            line_split = line.strip().split('.')
+            img_format = line_split[-1]
+
+            xml_filepath = line.replace(f'.{img_format}', '.xml')
+
+            with open(xml_filepath, 'r') as file:
+                xml_content = reduce(lambda a, b : a + b, file.readlines())
+
+            xml_data = parse_xml_tags(xml_content)
+
+            class_name = xml_data['name']
+            filename = xml_data['filename']
+            x1 = xml_data['x1']
+            y1 = xml_data['y1']
+            x2 = xml_data['x2']
+            y2 = xml_data['y2']
+            x3 = xml_data['x3']
+            y3 = xml_data['y3']
+            x4 = xml_data['x4']
+            y4 = xml_data['y4']
 
             if class_name not in classes_count:
                 classes_count[class_name] = 1
@@ -47,8 +66,11 @@ def get_data(input_path):
                     all_imgs[filename]['imageset'] = 'test'
 
             all_imgs[filename]['bboxes'].append(
-                {'class': class_name, 'x1': int(float(x1)), 'x2': int(float(x2)), 'y1': int(float(y1)),
-                 'y2': int(float(y2))})
+                {'class': class_name,
+                 'x1': int(float(x1)), 'y1': int(float(y1)),
+                 'x2': int(float(x2)), 'y2': int(float(y2)),
+                 'x3': int(float(x3)), 'y3': int(float(y3)),
+                 'x4': int(float(x4)), 'y4': int(float(y4))})
 
         all_data = []
         for key in all_imgs:

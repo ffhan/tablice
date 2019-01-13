@@ -1,0 +1,30 @@
+<annotation>
+	<folder>pozicije</folder>
+	<filename>0061.png</filename>
+	<path>/home/fhancic/Documents/Faks/5_semestar/Projekt/src/detektorTablica/tablice/pozicije/0061.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1000</width>
+		<height>1000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>registration_plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<corners>
+			<x1>639</x1>
+			<y1>458</y1>
+			<x2>642</x2>
+			<y2>447</y2>
+			<x3>690</x3>
+			<y3>422</y3>
+			<x4>693</x4>
+			<y4>411</y4>
+		</corners>
+	</object>
+</annotation>
