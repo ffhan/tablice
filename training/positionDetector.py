@@ -169,6 +169,10 @@ def save_scene_object_to_xml(image):
     with open(dest, 'w') as file:
         file.write(repr(xml))
 
+def save_references_to_xmls():
+    with open('all_images.txt', 'w') as file:
+        for img in all_images:
+            file.write(f'{img.path.replace("pozicije", "render")}\n')
 
 images_provided = args.images_provided
 if images_provided:
@@ -185,4 +189,6 @@ if __name__ == '__main__':
     logging.info('Discovered %d images: %s', len(all_images), all_images)
     for img in all_images:
         save_scene_object_to_xml(img)
+    save_references_to_xmls()
+
 

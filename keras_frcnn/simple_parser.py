@@ -18,10 +18,11 @@ def get_data(input_path):
         print('Parsing annotation files')
 
         for line in f:
-            line_split = line.strip().split('.')
+            line = line.strip()
+            line_split = line.split('.')
             img_format = line_split[-1]
 
-            xml_filepath = line.replace(f'.{img_format}', '.xml')
+            xml_filepath = line.replace('pozicije', 'render').replace(f'.{img_format}', '.xml')
 
             with open(xml_filepath, 'r') as file:
                 xml_content = reduce(lambda a, b : a + b, file.readlines())
@@ -29,7 +30,7 @@ def get_data(input_path):
             xml_data = parse_xml_tags(xml_content)
 
             class_name = xml_data['name']
-            filename = xml_data['filename']
+            filename = xml_data['path']
             x1 = xml_data['x1']
             y1 = xml_data['y1']
             x2 = xml_data['x2']
