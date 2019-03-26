@@ -1,59 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53ed827d-067d-4f9a-918b-ee74aeb7a1d2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/keras_frcnn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/keras_frcnn.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="53ed827d-067d-4f9a-918b-ee74aeb7a1d2" name="Default" comment="First step to training with 4 points">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README_cn.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/config.pickle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/keras_frcnn/resnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/keras_frcnn/resnet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keras_frcnn/simple_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/keras_frcnn/simple_parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results_images/000000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results_images/000001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results_images/000002.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results_images/000003.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results_images/000004.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results_images/000005.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results_images/000006.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results_images/000007.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results_images/000008.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results_images/000009.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results_images/000010.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results_images/000011.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results_images/000012.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results_images/000013.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results_images/000014.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results_images/000015.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tablice/render/0050.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tablice/render/0050.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tablice/render/0051.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tablice/render/0051.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tablice/render/0052.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tablice/render/0052.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tablice/render/0053.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tablice/render/0053.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tablice/render/0054.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tablice/render/0054.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tablice/render/0055.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tablice/render/0055.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tablice/render/0056.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tablice/render/0056.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tablice/render/0057.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tablice/render/0057.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tablice/render/0058.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tablice/render/0058.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tablice/render/0059.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tablice/render/0059.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tablice/render/0060.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tablice/render/0060.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tablice/render/0061.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tablice/render/0061.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tablice/render/0062.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tablice/render/0062.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tablice/render/0063.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tablice/render/0063.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tablice/render/0064.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tablice/render/0064.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tablice/render/0065.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tablice/render/0065.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tablice/render/0066.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tablice/render/0066.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tablice/render/0067.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tablice/render/0067.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tablice/render/0068.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tablice/render/0068.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tablice/render/0069.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tablice/render/0069.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tablice/render/0070.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tablice/render/0070.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tablice/render/0071.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tablice/render/0071.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tablice/render/0072.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tablice/render/0072.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tablice/render/0073.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tablice/render/0073.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tablice/render/0074.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tablice/render/0074.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/train_frcnn_kitti.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_frcnn_kitti.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/training/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/training/positionDetector.py" beforeDir="false" afterPath="$PROJECT_DIR$/training/positionDetector.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/tablice$train_frcnn_kitti.coverage" NAME="train_frcnn_kitti Coverage Results" MODIFIED="1552952459276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tablice$train_frcnn_kitti.coverage" NAME="train_frcnn_kitti Coverage Results" MODIFIED="1553589870039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tablice$positionDetector.coverage" NAME="positionDetector Coverage Results" MODIFIED="1552952442251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/training" />
   </component>
   <component name="FileEditorManager">
@@ -70,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train_frcnn_kitti.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="81" column="15" selection-start-line="81" selection-start-column="15" selection-end-line="81" selection-end-column="15" />
+            <state relative-caret-position="266">
+              <caret line="153" column="53" selection-start-line="153" selection-start-column="53" selection-end-line="153" selection-end-column="53" />
               <folding>
                 <element signature="e#47#78#0" expanded="true" />
               </folding>
@@ -79,11 +30,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/keras_frcnn/roi_helpers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/keras_frcnn/resnet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2530">
-              <caret line="244" column="42" selection-start-line="244" selection-start-column="42" selection-end-line="244" selection-end-column="42" />
+            <state relative-caret-position="-92">
+              <caret line="182" column="13" selection-start-line="182" selection-start-column="13" selection-end-line="182" selection-end-column="13" />
               <folding>
                 <element signature="e#197#234#0" expanded="true" />
               </folding>
@@ -92,12 +52,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/process.py">
+        <entry file="file://$PROJECT_DIR$/keras_frcnn/fixed_batch_normalization.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+            <state relative-caret-position="105">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/training/positionDetector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
+            <state relative-caret-position="2460">
               <caret line="174" column="63" selection-start-line="174" selection-start-column="63" selection-end-line="174" selection-end-column="63" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -118,7 +78,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/detector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1670">
+            <state relative-caret-position="1785">
               <caret line="135" column="41" selection-start-line="135" selection-start-column="41" selection-end-line="135" selection-end-column="41" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
@@ -139,7 +99,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/keras_frcnn/data_generators.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
+            <state relative-caret-position="4050">
               <caret line="277" column="14" selection-start-line="277" selection-start-column="14" selection-end-line="277" selection-end-column="14" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
@@ -157,11 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/keras_frcnn/simple_parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+            <state relative-caret-position="420">
+              <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -195,6 +155,7 @@
       <find>cfg</find>
       <find>all_imgs</find>
       <find>x1</find>
+      <find>bn_conv1</find>
     </findStrings>
     <replaceStrings>
       <replace>losses_fn</replace>
@@ -231,17 +192,16 @@
         <option value="$PROJECT_DIR$/training/all_images.txt" />
         <option value="$PROJECT_DIR$/keras_frcnn/simple_parser.py" />
         <option value="$PROJECT_DIR$/model/vgg.py" />
+        <option value="$PROJECT_DIR$/training/positionDetector.py" />
         <option value="$PROJECT_DIR$/train_frcnn_kitti.py" />
         <option value="$PROJECT_DIR$/keras_frcnn/resnet.py" />
-        <option value="$PROJECT_DIR$/training/positionDetector.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-4" />
-    <option name="y" value="32" />
-    <option name="width" value="964" />
-    <option name="height" value="1052" />
+    <option name="y" value="30" />
+    <option name="width" value="960" />
+    <option name="height" value="510" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -259,6 +219,17 @@
               <item name="tablice" type="b2602c69:ProjectViewProjectNode" />
               <item name="tablice" type="462c0819:PsiDirectoryNode" />
               <item name="keras_frcnn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tablice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tablice" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tablice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tablice" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="faster_rcnn_resnet50_coco_2018_01_28" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tablice" type="b2602c69:ProjectViewProjectNode" />
@@ -488,23 +459,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1502423526762</updated>
-      <workItem from="1552937329816" duration="11344000" />
+      <workItem from="1552937329816" duration="11592000" />
+      <workItem from="1552997819952" duration="14000" />
+      <workItem from="1553002345685" duration="17000" />
+      <workItem from="1553025917645" duration="2575000" />
+      <workItem from="1553037379182" duration="17000" />
+      <workItem from="1553549485540" duration="815000" />
     </task>
+    <task id="LOCAL-00001" summary="First step to training with 4 points">
+      <created>1552952652288</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552952652288</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11344000" />
+    <option name="totallyTimeSpent" value="15030000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="32" width="1928" height="1052" extended-state="6" />
+    <frame x="0" y="32" width="1920" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13553895" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17235859" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32826087" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32934782" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45869565" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -525,6 +509,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First step to training with 4 points" />
+    <option name="LAST_COMMIT_MESSAGE" value="First step to training with 4 points" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -547,18 +535,8 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/000009.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/000010.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras_frcnn/roi_helpers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="204" column="34" lean-forward="true" selection-start-line="204" selection-start-column="34" selection-end-line="204" selection-end-column="34" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_frcnn.py" />
     <entry file="file://$PROJECT_DIR$/requirements.txt">
@@ -568,9 +546,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/results_images/000010.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/results_images/000010.png" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -580,15 +556,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/test_frcnn_kitti.py" />
-    <entry file="file://$PROJECT_DIR$/results_images/000003.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results_images/000006.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results_images/000009.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/results_images/000003.png" />
+    <entry file="file://$PROJECT_DIR$/results_images/000006.png" />
+    <entry file="file://$PROJECT_DIR$/results_images/000009.png" />
     <entry file="file://$PROJECT_DIR$/extract_featuremap.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -624,16 +594,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="225">
-            <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -698,9 +659,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/results_images/000001.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/results_images/000001.png" />
     <entry file="file://$PROJECT_DIR$/images/000002.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -711,9 +670,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/training/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/training/__init__.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -738,13 +695,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/lib/python3.7/site-packages/keras/engine/base_layer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="456" selection-start-line="456" selection-end-line="456" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/lib/python3.7/site-packages/keras/engine/base_layer.py" />
     <entry file="file:///usr/lib/python3.7/site-packages/tensorflow/python/framework/ops.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -752,23 +703,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/keras_frcnn/fixed_batch_normalization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/vgg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="21" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/model/vgg.py" />
     <entry file="file://$PROJECT_DIR$/keras_frcnn/vgg.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
@@ -783,16 +718,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/measure_map.py">
+    <entry file="file://$PROJECT_DIR$/all_images.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+        <state relative-caret-position="240">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/training/all_images.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/utils/process.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="645">
           <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -800,9 +738,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/training/positionDetector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2460">
+          <caret line="174" column="63" selection-start-line="174" selection-start-column="63" selection-end-line="174" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/detector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1670">
+        <state relative-caret-position="1785">
           <caret line="135" column="41" selection-start-line="135" selection-start-column="41" selection-end-line="135" selection-end-column="41" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
@@ -819,7 +767,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/keras_frcnn/data_generators.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
+        <state relative-caret-position="4050">
           <caret line="277" column="14" selection-start-line="277" selection-start-column="14" selection-end-line="277" selection-end-column="14" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
@@ -827,47 +775,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/all_images.txt">
+    <entry file="file://$PROJECT_DIR$/measure_map.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        <state relative-caret-position="300">
+          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/training/positionDetector.py">
+    <entry file="file://$PROJECT_DIR$/keras_frcnn/simple_parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="174" column="63" selection-start-line="174" selection-start-column="63" selection-end-line="174" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="420">
+          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train_frcnn_kitti.py">
+    <entry file="file://$PROJECT_DIR$/keras_frcnn/fixed_batch_normalization.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="81" column="15" selection-start-line="81" selection-start-column="15" selection-end-line="81" selection-end-column="15" />
+        <state relative-caret-position="105">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
           <folding>
-            <element signature="e#47#78#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/keras_frcnn/resnet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2530">
-          <caret line="244" column="42" selection-start-line="244" selection-start-column="42" selection-end-line="244" selection-end-column="42" />
+        <state relative-caret-position="-92">
+          <caret line="182" column="13" selection-start-line="182" selection-start-column="13" selection-end-line="182" selection-end-column="13" />
           <folding>
             <element signature="e#197#234#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/keras_frcnn/simple_parser.py">
+    <entry file="file://$PROJECT_DIR$/train_frcnn_kitti.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+        <state relative-caret-position="266">
+          <caret line="153" column="53" selection-start-line="153" selection-start-column="53" selection-end-line="153" selection-end-column="53" />
+          <folding>
+            <element signature="e#47#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras_frcnn/roi_helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
