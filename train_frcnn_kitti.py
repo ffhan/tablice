@@ -18,7 +18,6 @@ import keras_frcnn.roi_helpers as roi_helpers
 from keras.utils import generic_utils
 import os
 from keras_frcnn import resnet as nn
-from keras_frcnn import vgg
 from keras_frcnn.simple_parser import get_data
 
 
@@ -72,7 +71,7 @@ def train_kitti():
         input_shape_img = (None, None, 3)
 
     img_input = Input(shape=input_shape_img)
-    roi_input = Input(shape=(None, 8))
+    roi_input = Input(shape=(None, 4))
 
     # define the base network (resnet here, can be VGG, Inception, etc)
     shared_layers = nn.nn_base(img_input, trainable=True)
@@ -196,6 +195,19 @@ def train_kitti():
                     else:
                         sel_samples = random.choice(pos_samples)
                 # todo: ovdje negdje treba metrika s 4 točke
+                temp = []
+                for el in Y2:
+                    temp.append([])
+                    for el2 in el:
+                        ox1, oy1, ox2, oy2, ox3, oy3, ox4, oy4 = el2
+                        x1 = min(ox1, ox2, ox3, ox4)
+                        y1 = min(oy1, oy2, oy3, oy4)
+
+                        x2 = max(ox1, ox2, ox3, ox4)
+                        y2 = max(oy1, oy2, oy3, oy4)
+                        temp[-1].append([x1, y1, x2, y2])
+                Y2 = np.array(temp)
+
                 loss_class = model_classifier.train_on_batch([X, X2[:, sel_samples, :]],
                                                              [Y1[:, sel_samples, :], Y2[:, sel_samples, :]])
 

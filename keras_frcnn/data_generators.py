@@ -107,6 +107,18 @@ def calc_rpn(C, img_data, width, height, resized_width, resized_height, img_leng
 	gta = np.zeros((num_bboxes, 4))
 	for bbox_num, bbox in enumerate(img_data['bboxes']):
 		# get the GT box coordinates, and resize to account for image resizing
+
+		# convert 4 point bbox to 2 point
+		x1 = min(bbox['x1'], bbox['x2'], bbox['x3'], bbox['x4'])
+		y1 = min(bbox['y1'], bbox['y2'], bbox['y3'], bbox['y4'])
+		x2 = max(bbox['x1'], bbox['x2'], bbox['x3'], bbox['x4'])
+		y2 = max(bbox['y1'], bbox['y2'], bbox['y3'], bbox['y4'])
+
+		bbox['x1'] = x1
+		bbox['x2'] = x2
+		bbox['y1'] = y1
+		bbox['y2'] = y2
+
 		gta[bbox_num, 0] = bbox['x1'] * (resized_width / float(width))
 		gta[bbox_num, 1] = bbox['x2'] * (resized_width / float(width))
 		gta[bbox_num, 2] = bbox['y1'] * (resized_height / float(height))
