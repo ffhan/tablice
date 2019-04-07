@@ -2,6 +2,7 @@ from __future__ import absolute_import
 import numpy as np
 import cv2
 import random
+import math
 import copy
 from . import data_augment
 import threading
@@ -313,7 +314,8 @@ def get_anchor_gt(all_img_data, class_count, C, img_length_calc_function, backen
 
 				try:
 					y_rpn_cls, y_rpn_regr = calc_rpn(C, img_data_aug, width, height, resized_width, resized_height, img_length_calc_function)
-				except:
+				except Exception as e:
+					print(e)
 					continue
 
 				# Zero-center by mean pixel, and preprocess image

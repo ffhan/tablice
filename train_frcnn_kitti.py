@@ -195,7 +195,7 @@ def train_kitti():
                         sel_samples = random.choice(neg_samples)
                     else:
                         sel_samples = random.choice(pos_samples)
-
+                # todo: ovdje negdje treba metrika s 4 točke
                 loss_class = model_classifier.train_on_batch([X, X2[:, sel_samples, :]],
                                                              [Y1[:, sel_samples, :], Y2[:, sel_samples, :]])
 

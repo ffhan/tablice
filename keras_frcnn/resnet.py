@@ -242,7 +242,7 @@ def rpn(base_layers, num_anchors):
 
     x_class = Convolution2D(num_anchors, (1, 1), activation='sigmoid', kernel_initializer='uniform',
                             name='rpn_out_class')(x)
-    x_regr = Convolution2D(num_anchors * 8, (1, 1), activation='linear', kernel_initializer='zero',
+    x_regr = Convolution2D(num_anchors * 4, (1, 1), activation='linear', kernel_initializer='zero',
                            name='rpn_out_regress')(x)
 
     return [x_class, x_regr, base_layers]
@@ -266,7 +266,6 @@ def classifier(base_layers, input_rois, num_rois, nb_classes=21, trainable=False
     out_class = TimeDistributed(Dense(nb_classes, activation='softmax', kernel_initializer='zero'),
                                 name='dense_class_{}'.format(nb_classes))(out)
     # note: no regression target for bg class
-    # todo: vidi jel treba dodati 8 * ovdje i zašto ima regresijsku glavu
     out_regr = TimeDistributed(Dense(8 * (nb_classes - 1), activation='linear', kernel_initializer='zero'),
                                name='dense_regress_{}'.format(nb_classes))(out)
     return [out_class, out_regr]
